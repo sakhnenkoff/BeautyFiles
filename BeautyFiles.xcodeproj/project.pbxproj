@@ -9,21 +9,46 @@
 /* Begin PBXBuildFile section */
 		D734002A285CBC0000F44CE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7340029285CBC0000F44CE6 /* AppDelegate.swift */; };
 		D734002C285CBC0000F44CE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734002B285CBC0000F44CE6 /* SceneDelegate.swift */; };
-		D734002E285CBC0000F44CE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734002D285CBC0000F44CE6 /* ViewController.swift */; };
+		D734002E285CBC0000F44CE6 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734002D285CBC0000F44CE6 /* FileViewController.swift */; };
 		D7340031285CBC0000F44CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D734002F285CBC0000F44CE6 /* Main.storyboard */; };
 		D7340033285CBC0300F44CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7340032285CBC0300F44CE6 /* Assets.xcassets */; };
 		D7340036285CBC0300F44CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7340034285CBC0300F44CE6 /* LaunchScreen.storyboard */; };
+		D7340047285CBD0900F44CE6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7340046285CBD0900F44CE6 /* AppCoordinator.swift */; };
+		D734004A285CC05F00F44CE6 /* UIStoryboard + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7340049285CC05F00F44CE6 /* UIStoryboard + Extensions.swift */; };
+		D734004D285CC07800F44CE6 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734004C285CC07800F44CE6 /* String + Extensions.swift */; };
+		D7340050285CC25800F44CE6 /* FileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734004F285CC25800F44CE6 /* FileViewModel.swift */; };
+		D7340052285CC27A00F44CE6 /* FileViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7340051285CC27900F44CE6 /* FileViewCoordinator.swift */; };
+		D7340055285CC3EF00F44CE6 /* ViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7340054285CC3EF00F44CE6 /* ViewController + Extensions.swift */; };
+		D734005E285CDB0800F44CE6 /* FileCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734005D285CDB0800F44CE6 /* FileCollectionCell.swift */; };
+		D7340061285E2DB400F44CE6 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7340060285E2DB400F44CE6 /* UIStackView + Extensions.swift */; };
+		D7340063285E353500F44CE6 /* fileList.csv in Resources */ = {isa = PBXBuildFile; fileRef = D7340062285E353500F44CE6 /* fileList.csv */; };
+		D7340067285E363300F44CE6 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = D7340066285E363300F44CE6 /* SwiftCSV */; };
+		D734006A285E369500F44CE6 /* RawFileObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7340069285E369500F44CE6 /* RawFileObject.swift */; };
+		D734006C285E381600F44CE6 /* Bundle + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734006B285E381600F44CE6 /* Bundle + Extensions.swift */; };
+		D734006F285F6C6B00F44CE6 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734006E285F6C6B00F44CE6 /* Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7340026285CBC0000F44CE6 /* BeautyFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7340029285CBC0000F44CE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D734002B285CBC0000F44CE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D734002D285CBC0000F44CE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D734002D285CBC0000F44CE6 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
 		D7340030285CBC0000F44CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7340032285CBC0300F44CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7340035285CBC0300F44CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7340037285CBC0300F44CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7340046285CBD0900F44CE6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D7340049285CC05F00F44CE6 /* UIStoryboard + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard + Extensions.swift"; sourceTree = "<group>"; };
+		D734004C285CC07800F44CE6 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		D734004F285CC25800F44CE6 /* FileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewModel.swift; sourceTree = "<group>"; };
+		D7340051285CC27900F44CE6 /* FileViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewCoordinator.swift; sourceTree = "<group>"; };
+		D7340054285CC3EF00F44CE6 /* ViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + Extensions.swift"; sourceTree = "<group>"; };
+		D734005D285CDB0800F44CE6 /* FileCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCollectionCell.swift; sourceTree = "<group>"; };
+		D7340060285E2DB400F44CE6 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		D7340062285E353500F44CE6 /* fileList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fileList.csv; sourceTree = "<group>"; };
+		D7340069285E369500F44CE6 /* RawFileObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawFileObject.swift; sourceTree = "<group>"; };
+		D734006B285E381600F44CE6 /* Bundle + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle + Extensions.swift"; sourceTree = "<group>"; };
+		D734006E285F6C6B00F44CE6 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7340067285E363300F44CE6 /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,115 @@
 		D7340028285CBC0000F44CE6 /* BeautyFiles */ = {
 			isa = PBXGroup;
 			children = (
+				D734003D285CBC1300F44CE6 /* Kit */,
+				D734005B285CDAE100F44CE6 /* Common */,
+				D734003F285CBC1B00F44CE6 /* Modules */,
 				D7340029285CBC0000F44CE6 /* AppDelegate.swift */,
 				D734002B285CBC0000F44CE6 /* SceneDelegate.swift */,
-				D734002D285CBC0000F44CE6 /* ViewController.swift */,
-				D734002F285CBC0000F44CE6 /* Main.storyboard */,
-				D7340032285CBC0300F44CE6 /* Assets.xcassets */,
-				D7340034285CBC0300F44CE6 /* LaunchScreen.storyboard */,
-				D7340037285CBC0300F44CE6 /* Info.plist */,
+				D7340043285CBC4E00F44CE6 /* Storyboards */,
+				D7340042285CBC3500F44CE6 /* SupportFiles */,
 			);
 			path = BeautyFiles;
+			sourceTree = "<group>";
+		};
+		D734003D285CBC1300F44CE6 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				D734006D285F6C5200F44CE6 /* Helpers */,
+				D7340045285CBCFB00F44CE6 /* Coordinator */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		D734003F285CBC1B00F44CE6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D734004E285CC23D00F44CE6 /* FileViewModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D7340042285CBC3500F44CE6 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D7340062285E353500F44CE6 /* fileList.csv */,
+				D7340032285CBC0300F44CE6 /* Assets.xcassets */,
+				D7340037285CBC0300F44CE6 /* Info.plist */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		D7340043285CBC4E00F44CE6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D7340034285CBC0300F44CE6 /* LaunchScreen.storyboard */,
+				D734002F285CBC0000F44CE6 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D7340045285CBCFB00F44CE6 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D7340046285CBD0900F44CE6 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D7340048285CC03200F44CE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7340049285CC05F00F44CE6 /* UIStoryboard + Extensions.swift */,
+				D734004C285CC07800F44CE6 /* String + Extensions.swift */,
+				D7340054285CC3EF00F44CE6 /* ViewController + Extensions.swift */,
+				D7340060285E2DB400F44CE6 /* UIStackView + Extensions.swift */,
+				D734006B285E381600F44CE6 /* Bundle + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D734004E285CC23D00F44CE6 /* FileViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				D7340051285CC27900F44CE6 /* FileViewCoordinator.swift */,
+				D734004F285CC25800F44CE6 /* FileViewModel.swift */,
+				D734002D285CBC0000F44CE6 /* FileViewController.swift */,
+			);
+			path = FileViewModule;
+			sourceTree = "<group>";
+		};
+		D734005B285CDAE100F44CE6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D7340068285E368900F44CE6 /* Models */,
+				D7340048285CC03200F44CE6 /* Extensions */,
+				D734005C285CDAEA00F44CE6 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D734005C285CDAEA00F44CE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D734005D285CDB0800F44CE6 /* FileCollectionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7340068285E368900F44CE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7340069285E369500F44CE6 /* RawFileObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D734006D285F6C5200F44CE6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D734006E285F6C6B00F44CE6 /* Tree.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +209,9 @@
 			dependencies = (
 			);
 			name = BeautyFiles;
+			packageProductDependencies = (
+				D7340066285E363300F44CE6 /* SwiftCSV */,
+			);
 			productName = BeautyFiles;
 			productReference = D7340026285CBC0000F44CE6 /* BeautyFiles.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +240,9 @@
 				Base,
 			);
 			mainGroup = D734001D285CBC0000F44CE6;
+			packageReferences = (
+				D7340065285E363300F44CE6 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			productRefGroup = D7340027285CBC0000F44CE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +260,7 @@
 				D7340036285CBC0300F44CE6 /* LaunchScreen.storyboard in Resources */,
 				D7340033285CBC0300F44CE6 /* Assets.xcassets in Resources */,
 				D7340031285CBC0000F44CE6 /* Main.storyboard in Resources */,
+				D7340063285E353500F44CE6 /* fileList.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +271,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D734002E285CBC0000F44CE6 /* ViewController.swift in Sources */,
+				D7340061285E2DB400F44CE6 /* UIStackView + Extensions.swift in Sources */,
+				D7340050285CC25800F44CE6 /* FileViewModel.swift in Sources */,
+				D734006C285E381600F44CE6 /* Bundle + Extensions.swift in Sources */,
+				D734005E285CDB0800F44CE6 /* FileCollectionCell.swift in Sources */,
+				D7340047285CBD0900F44CE6 /* AppCoordinator.swift in Sources */,
+				D734002E285CBC0000F44CE6 /* FileViewController.swift in Sources */,
+				D7340052285CC27A00F44CE6 /* FileViewCoordinator.swift in Sources */,
+				D734006F285F6C6B00F44CE6 /* Tree.swift in Sources */,
+				D734006A285E369500F44CE6 /* RawFileObject.swift in Sources */,
 				D734002A285CBC0000F44CE6 /* AppDelegate.swift in Sources */,
 				D734002C285CBC0000F44CE6 /* SceneDelegate.swift in Sources */,
+				D734004D285CC07800F44CE6 /* String + Extensions.swift in Sources */,
+				D734004A285CC05F00F44CE6 /* UIStoryboard + Extensions.swift in Sources */,
+				D7340055285CC3EF00F44CE6 /* ViewController + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +436,9 @@
 				INFOPLIST_FILE = BeautyFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +464,9 @@
 				INFOPLIST_FILE = BeautyFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +502,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7340065285E363300F44CE6 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7340066285E363300F44CE6 /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7340065285E363300F44CE6 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D734001E285CBC0000F44CE6 /* Project object */;
 }
